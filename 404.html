@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+
+    <title>Redirecting...</title>
+    <meta name="description" content="Redirecting to the main page" />
+
+    <!-- Fallback for unknown paths. Real short links should use folders like /ig/. -->
+    <meta http-equiv="refresh" content="0;url=https://link.me/model" />
+  </head>
+  <body>
+    <script>
+      (function () {
+        var fallbackUrl = "https://link.me/model";
+        window.location.replace(fallbackUrl);
+      })();
+    </script>
+    <noscript>
+      <p><a href="https://link.me/model">Continue</a></p>
+    </noscript>
+  </body>
+</html>
